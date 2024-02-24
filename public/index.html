@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+  
+    <div id="main" class="main"> 
+
+
+        <h1 class="mainHeading">Quiz App</h1>
+        <h3>Question No: <span id="currentQuestNum">1</span>/<span id="totalQuest"></span></h3>
+        <h2 id="quest">HTML Stands For _________</h2>
+        <div id="btnDiv" class="btnDiv"></div>
+    </div>
+
+    <div id="result">
+        <div class="resultInside">
+            <div id="marks"></div>
+            <div id="percentage"></div>
+            <div id="grade"></div>
+            <!-- <div id="status"></div> -->
+            <div><button onclick="restart()" id="restart">Restart</button></div>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

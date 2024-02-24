@@ -1,0 +1,75 @@
+* {
+    color: white;
+}
+
+
+
+body {
+    background-color: hsl(270, 100%, 27%);
+}
+
+.mainHeading {
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 35px;
+}
+
+.btnDiv {
+
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 25px;
+    width: 500px;
+    margin: auto;
+}
+
+button {
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+#result {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.resultInside {
+    background-color: rgb(157, 241, 213);
+    margin: auto;
+    font-size: 35px;
+    border: 1px solid black;
+    width: 350px;
+    text-align: center;
+    padding: 50px;
+    color: black !important;
+}
+
+.resultInside>div {
+    color: black !important;
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    min-width: 150px;
+    background-color: blueviolet;
+    cursor: pointer;
+}
